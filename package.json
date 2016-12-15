@@ -4,6 +4,9 @@
   "main": "bin/app.js",
   "author": "Adam Talbot",
   "license": "MIT",
+  "scripts": {
+    "build" : "tsc"
+  },
   "devDependencies": {
     "ts-node": "^1.7.2",
     "typescript": "^2.1.4"
