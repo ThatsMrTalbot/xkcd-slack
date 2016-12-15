@@ -1,0 +1,9 @@
+{
+  "name": "xkcd",
+  "dependencies": {
+    "yargs": "registry:dt/yargs#6.3.0+20161121202446"
+  },
+  "globalDependencies": {
+    "node": "registry:dt/node#6.0.0+20161212163245"
+  }
+}

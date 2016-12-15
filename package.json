@@ -1,0 +1,14 @@
+{
+  "name": "xkcd",
+  "version": "1.0.0",
+  "main": "bin/app.js",
+  "author": "Adam Talbot",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^1.7.2",
+    "typescript": "^2.1.4"
+  },
+  "dependencies": {
+    "yargs": "^6.5.0"
+  }
+}
