@@ -15,7 +15,7 @@ async function tick(lockfile : string, token : string, channel : string, user? :
 }
 
 async function main(args : any) {
-    tick(args.l, args.t, args.c, args.n, args.a);
+    await tick(args.l, args.t, args.c, args.n, args.a);
 
     if(args.w) {
         setInterval(tick, 1000 * 60 * 30, args.l, args.t, args.c, args.n, args.a)
@@ -63,3 +63,7 @@ let args = yargs
     .argv;
 
 main(args);
+
+process.on('SIGINT', function() {
+    process.exit(0);
+});

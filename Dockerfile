@@ -8,6 +8,6 @@ RUN cd /opt/xkcd && \
     yarn install && \
     yarn run build
 
-WORKDIR "/"
-VOLUME "/xkcd.lock"
+WORKDIR "/wd"
+VOLUME "/wd"
 ENTRYPOINT ["node", "/opt/xkcd/bin/app.js"]
